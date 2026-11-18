@@ -1,0 +1,32 @@
+[28-May-2026 12:49:30 UTC] PHP Fatal error:  Uncaught Error: Access to undeclared static property Altum\Alerts::$field_errors in D:\wamp64\www\product\app\controllers\Login.php:574
+Stack trace:
+#0 [internal function]: Altum\Controllers\Login->index()
+#1 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\controllers\Login.php on line 574
+[28-May-2026 12:51:43 UTC] PHP Fatal error:  Uncaught Error: Access to undeclared static property Altum\Alerts::$field_errors in D:\wamp64\www\product\app\controllers\Login.php:574
+Stack trace:
+#0 [internal function]: Altum\Controllers\Login->index()
+#1 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\controllers\Login.php on line 574
+[28-May-2026 13:31:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Altum\Controllers\is_admin() in D:\wamp64\www\product\app\controllers\AuditCreate.php:810
+Stack trace:
+#0 [internal function]: Altum\Controllers\AuditCreate->ajax_pagespeed()
+#1 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\controllers\AuditCreate.php on line 810
+[28-May-2026 13:31:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Altum\Controllers\is_admin() in D:\wamp64\www\product\app\controllers\AuditCreate.php:810
+Stack trace:
+#0 [internal function]: Altum\Controllers\AuditCreate->ajax_pagespeed()
+#1 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\controllers\AuditCreate.php on line 810
+[28-May-2026 14:17:56 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 2262
+[28-May-2026 14:17:58 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 2262
+[28-May-2026 14:18:53 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 2262
+[28-May-2026 14:18:57 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 2262

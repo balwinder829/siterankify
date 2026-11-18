@@ -1,0 +1,16 @@
+[18-Jun-2026 08:54:03 Europe/Berlin] DB QUERY:SELECT  * FROM payments ORDER BY payment_id DESC  LIMIT 10
+[18-Jun-2026 08:54:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getItem() on null in D:\wamp64\www\product\app\models\Settings.php:25
+Stack trace:
+#0 D:\wamp64\www\product\app\core\Settings.php(26): Altum\Models\Settings->get()
+#1 D:\wamp64\www\product\app\helpers\core.php(21): Altum\Settings::initialize()
+#2 D:\wamp64\www\product\scratch\get_logo.php(11): settings()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\models\Settings.php on line 25
+[18-Jun-2026 08:54:58 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$brand_name in D:\wamp64\www\product\scratch\get_logo.php on line 15
+[18-Jun-2026 08:54:58 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$invoice_nr_prefix in D:\wamp64\www\product\scratch\get_logo.php on line 16
+[18-Jun-2026 08:55:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "Altum\UPLOADS_FULL_URL" in D:\wamp64\www\product\app\core\Uploads.php:42
+Stack trace:
+#0 D:\wamp64\www\product\scratch\get_logo_url.php(12): Altum\Uploads::get_full_url('logo_light')
+#1 {main}
+  thrown in D:\wamp64\www\product\app\core\Uploads.php on line 42
+[18-Jun-2026 16:41:57 Europe/Berlin] DB QUERY:

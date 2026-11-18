@@ -1,0 +1,12 @@
+a:6:{s:1:"k";s:42:"page?hash=3bfa03ddab140e0521cafe87b633d339";s:1:"d";O:8:"stdClass":22:{s:7:"page_id";s:1:"5";s:17:"pages_category_id";N;s:9:"plans_ids";N;s:3:"url";s:3:"faq";s:5:"title";s:3:"FAQ";s:11:"description";s:0:"";s:4:"icon";s:0:"";s:8:"keywords";s:0:"";s:5:"image";s:36:"47ddee2cf6257f79b9e9a9e983a9dea5.png";s:6:"editor";s:7:"wysiwyg";s:7:"content";s:1092:"<h3>How does the SEO audit work?</h3><p class='text-left'>
+</p><p class='text-left'>Our tool crawls your website just like a search engine would. It analyzes over 50+ SEO factors including meta tags, performance, mobile responsiveness, and security.</p><p class='text-left'>
+
+</p><h3>Can I export my reports?</h3><p class='text-left'>
+</p><p class='text-left'>Yes! Depending on your plan, you can export your detailed SEO audit reports as professional PDF documents to share with clients or your team.</p><p class='text-left'>
+
+</p><h3>What is the "Social Snippet" check?</h3><p class='text-left'>
+</p><p class='text-left'>This feature checks how your website appears when shared on social media platforms like Facebook and X (Twitter), ensuring your Open Graph tags are correctly configured.</p><p class='text-left'>
+
+</p><h3>How often are reports updated?</h3><p class='text-left'>
+</p><p class='text-left'>You can run audits as often as you like (within your plan limits). We recommend re-auditing after making any significant changes to your site.</p><p class='text-left'>
+</p>";s:4:"type";s:8:"internal";s:8:"position";s:6:"bottom";s:8:"language";N;s:15:"open_in_new_tab";s:1:"0";s:5:"order";s:1:"4";s:11:"total_views";s:2:"11";s:12:"is_published";s:1:"1";s:12:"is_indexable";s:1:"1";s:10:"is_sitemap";s:1:"1";s:8:"datetime";s:19:"2025-12-22 06:12:23";s:13:"last_datetime";s:19:"2026-04-29 11:01:58";}s:1:"g";a:1:{i:0;s:5:"pages";}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2026-12-17 12:10:29.893168";s:13:"timezone_type";i:3;s:8:"timezone";s:3:"UTC";}s:1:"m";N;s:1:"c";N;}

@@ -1,0 +1,57 @@
+Array
+(
+    [intent] => CAPTURE
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [currency_code] => USD
+                            [value] => 29.50
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 29.50
+                                        )
+
+                                )
+
+                        )
+
+                    [description] => Monthly
+                    [custom_id] => 3&2&monthly&25&&0&[9999]
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] =>  - Monthly Plan
+                                    [description] => Monthly
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 29.50
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [brand_name] => SiteRankify
+            [landing_page] => NO_PREFERENCE
+            [shipping_preference] => NO_SHIPPING
+            [user_action] => PAY_NOW
+            [return_url] => http://localhost/siterankify/pay/2?&return_type=success&payment_processor=paypal&payment_frequency=monthly&payment_type=one_time&code=&discount_amount=0&base_amount=25&total_amount=29.50&currency=USD
+            [cancel_url] => http://localhost/siterankify/pay/2?&return_type=cancel&payment_processor=paypal&payment_frequency=monthly&payment_type=one_time&code=&discount_amount=0&base_amount=25&total_amount=29.50&currency=USD
+        )
+
+)

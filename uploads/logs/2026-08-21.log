@@ -1,0 +1,75 @@
+[21-Aug-2026 06:30:31 UTC] PHP Fatal error:  Uncaught Exception: Connect Error 2002: No connection could be made because the target machine actively refused it in C:\xampp1\htdocs\siterankify\app\helpers\MysqliDb.php:331
+Stack trace:
+#0 C:\xampp1\htdocs\siterankify\app\helpers\MysqliDb.php(2079): Altum\Helpers\MysqliDb->connect('default')
+#1 C:\xampp1\htdocs\siterankify\app\helpers\MysqliDb.php(1676): Altum\Helpers\MysqliDb->_prepareQuery()
+#2 C:\xampp1\htdocs\siterankify\app\helpers\MysqliDb.php(779): Altum\Helpers\MysqliDb->_buildQuery(1)
+#3 C:\xampp1\htdocs\siterankify\app\helpers\MysqliDb.php(814): Altum\Helpers\MysqliDb->get('blog_posts_cate...', 1, '*')
+#4 C:\xampp1\htdocs\siterankify\app\controllers\Blog.php(80): Altum\Helpers\MysqliDb->getOne('blog_posts_cate...')
+#5 C:\xampp1\htdocs\siterankify\app\core\Cache.php(87): Altum\Controllers\Blog->Altum\Controllers\{closure}()
+#6 C:\xampp1\htdocs\siterankify\app\controllers\Blog.php(81): Altum\Cache::cache_function_result('blog_posts_cate...', 'blog_posts_cate...', Object(Closure))
+#7 [internal function]: Altum\Controllers\Blog->index()
+#8 C:\xampp1\htdocs\siterankify\app\core\App.php(321): call_user_func_array(Array, Array)
+#9 C:\xampp1\htdocs\siterankify\index.php(22): Altum\App->__construct()
+#10 {main}
+  thrown in C:\xampp1\htdocs\siterankify\app\helpers\MysqliDb.php on line 331
+[21-Aug-2026 06:49:25 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\TwoFactorAuth.php on line 32
+[21-Aug-2026 06:49:27 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\TwoFactorAuth.php on line 32
+[21-Aug-2026 06:49:28 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\TwoFactorAuth.php on line 32
+[21-Aug-2026 06:49:28 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\TwoFactorAuth.php on line 32
+[21-Aug-2026 06:49:28 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\TwoFactorAuth.php on line 32
+[21-Aug-2026 06:49:29 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\TwoFactorAuth.php on line 32
+[21-Aug-2026 06:49:29 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\TwoFactorAuth.php on line 32
+[21-Aug-2026 06:49:29 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\TwoFactorAuth.php on line 32
+[21-Aug-2026 06:49:29 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\TwoFactorAuth.php on line 32
+[21-Aug-2026 06:53:19 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp1\htdocs\siterankify\themes\rankify\views\partials\plan_features.php:163
+Stack trace:
+#0 C:\xampp1\htdocs\siterankify\app\core\View.php(44): require()
+#1 C:\xampp1\htdocs\siterankify\themes\rankify\views\account-plan\index.php(67): Altum\View->run(Object(stdClass))
+#2 C:\xampp1\htdocs\siterankify\app\core\View.php(44): require('C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\siterankify\app\controllers\AccountPlan.php(52): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\AccountPlan->index()
+#5 C:\xampp1\htdocs\siterankify\app\core\App.php(321): call_user_func_array(Array, Array)
+#6 C:\xampp1\htdocs\siterankify\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in C:\xampp1\htdocs\siterankify\themes\rankify\views\partials\plan_features.php on line 163
+[21-Aug-2026 06:53:21 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp1\htdocs\siterankify\themes\rankify\views\partials\plan_features.php:163
+Stack trace:
+#0 C:\xampp1\htdocs\siterankify\app\core\View.php(44): require()
+#1 C:\xampp1\htdocs\siterankify\themes\rankify\views\account-plan\index.php(67): Altum\View->run(Object(stdClass))
+#2 C:\xampp1\htdocs\siterankify\app\core\View.php(44): require('C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\siterankify\app\controllers\AccountPlan.php(52): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\AccountPlan->index()
+#5 C:\xampp1\htdocs\siterankify\app\core\App.php(321): call_user_func_array(Array, Array)
+#6 C:\xampp1\htdocs\siterankify\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in C:\xampp1\htdocs\siterankify\themes\rankify\views\partials\plan_features.php on line 163
+[21-Aug-2026 07:03:51 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\TwoFactorAuth.php on line 32
+[21-Aug-2026 07:03:55 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp1\htdocs\siterankify\themes\rankify\views\partials\plan_features.php:163
+Stack trace:
+#0 C:\xampp1\htdocs\siterankify\app\core\View.php(44): require()
+#1 C:\xampp1\htdocs\siterankify\themes\rankify\views\account-plan\index.php(67): Altum\View->run(Object(stdClass))
+#2 C:\xampp1\htdocs\siterankify\app\core\View.php(44): require('C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\siterankify\app\controllers\AccountPlan.php(52): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\AccountPlan->index()
+#5 C:\xampp1\htdocs\siterankify\app\core\App.php(321): call_user_func_array(Array, Array)
+#6 C:\xampp1\htdocs\siterankify\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in C:\xampp1\htdocs\siterankify\themes\rankify\views\partials\plan_features.php on line 163
+[21-Aug-2026 07:04:17 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\TwoFactorAuth.php on line 32
+[21-Aug-2026 07:09:09 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\TwoFactorAuth.php on line 32
+[21-Aug-2026 07:15:54 UTC] PHP Parse error:  syntax error, unexpected identifier "int", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\Providers\Qr\BaconQrCodeProvider.php on line 25
+[21-Aug-2026 07:15:59 UTC] PHP Parse error:  syntax error, unexpected identifier "int", expecting variable in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\Providers\Qr\BaconQrCodeProvider.php on line 25
+[21-Aug-2026 07:16:28 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp1\htdocs\siterankify\themes\rankify\views\partials\plan_features.php:163
+Stack trace:
+#0 C:\xampp1\htdocs\siterankify\app\core\View.php(44): require()
+#1 C:\xampp1\htdocs\siterankify\themes\rankify\views\account-plan\index.php(67): Altum\View->run(Object(stdClass))
+#2 C:\xampp1\htdocs\siterankify\app\core\View.php(44): require('C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\siterankify\app\controllers\AccountPlan.php(52): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\AccountPlan->index()
+#5 C:\xampp1\htdocs\siterankify\app\core\App.php(321): call_user_func_array(Array, Array)
+#6 C:\xampp1\htdocs\siterankify\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in C:\xampp1\htdocs\siterankify\themes\rankify\views\partials\plan_features.php on line 163
+[21-Aug-2026 07:19:55 UTC] PHP Parse error:  syntax error, unexpected identifier "Algorithm" in C:\xampp1\htdocs\siterankify\vendor\robthree\twofactorauth\lib\Algorithm.php on line 10
+[21-Aug-2026 07:22:56 UTC] PHP Parse error:  syntax error, unexpected identifier "ColorInterface", expecting variable in C:\xampp1\htdocs\siterankify\vendor\bacon\bacon-qr-code\src\Renderer\RendererStyle\Fill.php on line 15
+[21-Aug-2026 08:56:01 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp1\htdocs\siterankify\app\helpers\sessions.php on line 36

@@ -1,0 +1,8 @@
+[02-Jul-2026 08:05:16 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, stdClass given in D:\wamp64\www\product\app\controllers\Audit.php:343
+Stack trace:
+#0 D:\wamp64\www\product\app\controllers\Audit.php(343): json_decode(Object(stdClass))
+#1 [internal function]: Altum\Controllers\Audit->download_track()
+#2 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#3 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#4 {main}
+  thrown in D:\wamp64\www\product\app\controllers\Audit.php on line 343

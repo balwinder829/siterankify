@@ -1,0 +1,168 @@
+[29-May-2026 07:26:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Altum\Alerts::get_field_errors() in D:\wamp64\www\product\app\controllers\AuditCreate.php:787
+Stack trace:
+#0 [internal function]: Altum\Controllers\AuditCreate->index()
+#1 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\controllers\AuditCreate.php on line 787
+[29-May-2026 07:33:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Altum\Alerts::get_field_errors() in D:\wamp64\www\product\app\controllers\AuditCreate.php:787
+Stack trace:
+#0 [internal function]: Altum\Controllers\AuditCreate->index()
+#1 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\controllers\AuditCreate.php on line 787
+[29-May-2026 07:41:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Altum\Alerts::get_field_errors() in D:\wamp64\www\product\app\controllers\AuditCreate.php:791
+Stack trace:
+#0 [internal function]: Altum\Controllers\AuditCreate->index()
+#1 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\controllers\AuditCreate.php on line 791
+[29-May-2026 07:49:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Altum\Alerts::get_field_errors() in D:\wamp64\www\product\app\controllers\AuditCreate.php:791
+Stack trace:
+#0 [internal function]: Altum\Controllers\AuditCreate->index()
+#1 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\controllers\AuditCreate.php on line 791
+[29-May-2026 07:51:47 UTC] PHP Parse error:  syntax error, unexpected token "catch" in D:\wamp64\www\product\app\controllers\AuditCreate.php on line 789
+[29-May-2026 07:58:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Altum\Alerts::get_field_errors() in D:\wamp64\www\product\app\controllers\AuditCreate.php:803
+Stack trace:
+#0 [internal function]: Altum\Controllers\AuditCreate->index()
+#1 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\controllers\AuditCreate.php on line 803
+[29-May-2026 08:02:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Altum\Alerts::get_field_errors() in D:\wamp64\www\product\app\controllers\AuditCreate.php:808
+Stack trace:
+#0 [internal function]: Altum\Controllers\AuditCreate->index()
+#1 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\controllers\AuditCreate.php on line 808
+[29-May-2026 08:16:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Altum\Alerts::get_field_errors() in D:\wamp64\www\product\app\controllers\AuditCreate.php:808
+Stack trace:
+#0 [internal function]: Altum\Controllers\AuditCreate->index()
+#1 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\controllers\AuditCreate.php on line 808
+[29-May-2026 11:33:59 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\product\themes\altum\views\audit\index.php:466
+Stack trace:
+#0 [internal function]: Altum\View->{closure}(Object(stdClass))
+#1 D:\wamp64\www\product\themes\altum\views\audit\index.php(465): array_filter(Array, Object(Closure))
+#2 D:\wamp64\www\product\app\core\View.php(44): require('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\app\controllers\Audit.php(173): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\Audit->index()
+#5 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#6 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 466
+[29-May-2026 11:34:01 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\product\themes\altum\views\audit\index.php:466
+Stack trace:
+#0 [internal function]: Altum\View->{closure}(Object(stdClass))
+#1 D:\wamp64\www\product\themes\altum\views\audit\index.php(465): array_filter(Array, Object(Closure))
+#2 D:\wamp64\www\product\app\core\View.php(44): require('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\app\controllers\Audit.php(173): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\Audit->index()
+#5 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#6 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 466
+[29-May-2026 11:34:01 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\product\themes\altum\views\audit\index.php:466
+Stack trace:
+#0 [internal function]: Altum\View->{closure}(Object(stdClass))
+#1 D:\wamp64\www\product\themes\altum\views\audit\index.php(465): array_filter(Array, Object(Closure))
+#2 D:\wamp64\www\product\app\core\View.php(44): require('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\app\controllers\Audit.php(173): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\Audit->index()
+#5 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#6 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 466
+[29-May-2026 11:34:07 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\product\themes\altum\views\audit\index.php:466
+Stack trace:
+#0 [internal function]: Altum\View->{closure}(Object(stdClass))
+#1 D:\wamp64\www\product\themes\altum\views\audit\index.php(465): array_filter(Array, Object(Closure))
+#2 D:\wamp64\www\product\app\core\View.php(44): require('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\app\controllers\Audit.php(173): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\Audit->index()
+#5 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#6 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 466
+[29-May-2026 11:34:08 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\product\themes\altum\views\audit\index.php:466
+Stack trace:
+#0 [internal function]: Altum\View->{closure}(Object(stdClass))
+#1 D:\wamp64\www\product\themes\altum\views\audit\index.php(465): array_filter(Array, Object(Closure))
+#2 D:\wamp64\www\product\app\core\View.php(44): require('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\app\controllers\Audit.php(173): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\Audit->index()
+#5 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#6 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 466
+[29-May-2026 11:34:08 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\product\themes\altum\views\audit\index.php:466
+Stack trace:
+#0 [internal function]: Altum\View->{closure}(Object(stdClass))
+#1 D:\wamp64\www\product\themes\altum\views\audit\index.php(465): array_filter(Array, Object(Closure))
+#2 D:\wamp64\www\product\app\core\View.php(44): require('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\app\controllers\Audit.php(173): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\Audit->index()
+#5 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#6 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 466
+[29-May-2026 11:34:09 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\product\themes\altum\views\audit\index.php:466
+Stack trace:
+#0 [internal function]: Altum\View->{closure}(Object(stdClass))
+#1 D:\wamp64\www\product\themes\altum\views\audit\index.php(465): array_filter(Array, Object(Closure))
+#2 D:\wamp64\www\product\app\core\View.php(44): require('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\app\controllers\Audit.php(173): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\Audit->index()
+#5 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#6 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 466
+[29-May-2026 11:41:29 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\product\themes\altum\views\audit\index.php:466
+Stack trace:
+#0 [internal function]: Altum\View->{closure}(Object(stdClass))
+#1 D:\wamp64\www\product\themes\altum\views\audit\index.php(465): array_filter(Array, Object(Closure))
+#2 D:\wamp64\www\product\app\core\View.php(44): require('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\app\controllers\Audit.php(173): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\Audit->index()
+#5 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#6 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 466
+[29-May-2026 11:41:36 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\product\themes\altum\views\audit\index.php:466
+Stack trace:
+#0 [internal function]: Altum\View->{closure}(Object(stdClass))
+#1 D:\wamp64\www\product\themes\altum\views\audit\index.php(465): array_filter(Array, Object(Closure))
+#2 D:\wamp64\www\product\app\core\View.php(44): require('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\app\controllers\Audit.php(173): Altum\View->run(Object(stdClass))
+#4 [internal function]: Altum\Controllers\Audit->index()
+#5 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#6 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#7 {main}
+  thrown in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 466
+[29-May-2026 14:55:09 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\product\themes\altum\views\audit\index.php:1327
+Stack trace:
+#0 D:\wamp64\www\product\app\core\View.php(44): require()
+#1 D:\wamp64\www\product\app\controllers\Audit.php(173): Altum\View->run(Object(stdClass))
+#2 [internal function]: Altum\Controllers\Audit->index()
+#3 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#4 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#5 {main}
+  thrown in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 1327
+[29-May-2026 14:56:50 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\product\themes\altum\views\audit\index.php:1327
+Stack trace:
+#0 D:\wamp64\www\product\app\core\View.php(44): require()
+#1 D:\wamp64\www\product\app\controllers\Audit.php(173): Altum\View->run(Object(stdClass))
+#2 [internal function]: Altum\Controllers\Audit->index()
+#3 D:\wamp64\www\product\app\core\App.php(318): call_user_func_array(Array, Array)
+#4 D:\wamp64\www\product\index.php(22): Altum\App->__construct()
+#5 {main}
+  thrown in D:\wamp64\www\product\themes\altum\views\audit\index.php on line 1327
+[29-May-2026 15:48:25 UTC] PHP Parse error:  syntax error, unexpected variable "$data", expecting "function" in D:\wamp64\www\product\app\controllers\Register.php on line 362

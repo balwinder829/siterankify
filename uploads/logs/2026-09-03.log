@@ -1,0 +1,2 @@
+[03-Sep-2026 08:01:36 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp1\htdocs\siterankify\app\helpers\sessions.php on line 36
+[03-Sep-2026 14:50:04 Europe/Berlin] DB QUERY:SELECT  * FROM pages

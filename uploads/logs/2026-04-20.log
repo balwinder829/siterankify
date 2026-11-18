@@ -1,0 +1,11 @@
+[20-Apr-2026 16:02:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "Altum\MYSQL_DEBUG" in D:\wamp64\www\product\app\core\Database.php:57
+Stack trace:
+#0 D:\wamp64\www\product\app\helpers\core.php(65): Altum\Database::initialize()
+#1 D:\wamp64\www\product\scratch\check_blog_schema.php(7): database()
+#2 {main}
+  thrown in D:\wamp64\www\product\app\core\Database.php on line 57
+[20-Apr-2026 14:04:10 UTC] PHP Parse error:  syntax error, unexpected token "public" in D:\wamp64\www\product\app\models\BlogPosts.php on line 73
+[20-Apr-2026 14:04:12 UTC] PHP Parse error:  syntax error, unexpected token "public" in D:\wamp64\www\product\app\models\BlogPosts.php on line 73
+[20-Apr-2026 14:04:12 UTC] PHP Parse error:  syntax error, unexpected token "public" in D:\wamp64\www\product\app\models\BlogPosts.php on line 73
+[20-Apr-2026 14:04:12 UTC] PHP Parse error:  syntax error, unexpected token "public" in D:\wamp64\www\product\app\models\BlogPosts.php on line 73
+[20-Apr-2026 14:04:16 UTC] PHP Parse error:  syntax error, unexpected token "public" in D:\wamp64\www\product\app\models\BlogPosts.php on line 73

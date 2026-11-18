@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap');
+
+/* ============================================================
+   SITERANKIFY ENTERPRISE CLEAN DESIGN SYSTEM
+   Modern · Solid Colors · Flat High Contrast · Pure Typography
+   ============================================================ */
+
+:root {
+  --font-heading: 'Montserrat', 'Raleway', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Montserrat', 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-border: #e2e8f0;
+  
+  /* Logo-Derived Brand Colors */
+  --color-brand: #1084cd;         /* Vibrant Cyan-Blue from Logo arrow & letters */
+  --color-brand-hover: #0c6fae;   /* Darker Cyan-Blue */
+  --color-brand-dark: #0b2b48;    /* Deep Navy from Logo SITE text */
+  --color-brand-teal: #14b8a6;    /* Teal from Logo chart growth bar */
+  
+  --color-text-title: #0b2239;    /* Logo Deep Slate Navy */
+  --color-text-body: #1e3a58;     /* Rich Contrast Navy Slate */
+  --color-text-muted: #537596;    /* Muted Slate Blue */
+
+  /* Bootstrap / Component bridge */
+  --primary: #1084cd;
+  --primary-hover: #0c6fae;
+  --dark: #0b2239;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16.5px;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body) !important;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+  background-color: #f8fafc;
+  color: var(--color-text-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100vh !important;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading) !important;
+  color: var(--color-text-title);
+  letter-spacing: -0.02em;
+  font-weight: 750;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-family: var(--font-body) !important;
+  color: var(--color-text-body);
+  line-height: 1.45;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+/* Standalone Container & Grid System (Replaces Bootstrap Grid bloat) */
+.container,
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) { .container { max-width: 640px; } }
+@media (min-width: 768px) { .container { max-width: 768px; } }
+@media (min-width: 1024px) { .container { max-width: 1024px; } }
+@media (min-width: 1280px) { .container { max-width: 1240px; } }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+.row > * {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  max-width: 100%;
+}
+
+.col-12 { flex: 0 0 100%; width: 100%; }
+.col-md-6 { flex: 0 0 100%; width: 100%; }
+.col-md-4 { flex: 0 0 100%; width: 100%; }
+.col-lg-3 { flex: 0 0 100%; width: 100%; }
+
+@media (min-width: 768px) {
+  .col-md-6 { flex: 0 0 50%; width: 50%; }
+  .col-md-4 { flex: 0 0 33.333333%; width: 33.333333%; }
+  .col-md-8 { flex: 0 0 66.666667%; width: 66.666667%; }
+}
+
+@media (min-width: 1024px) {
+  .col-lg-3 { flex: 0 0 25%; width: 25%; }
+  .col-lg-4 { flex: 0 0 33.333333%; width: 33.333333%; }
+  .col-lg-6 { flex: 0 0 50%; width: 50%; }
+  .col-lg-8 { flex: 0 0 66.666667%; width: 66.666667%; }
+  .col-lg-9 { flex: 0 0 75%; width: 75%; }
+}
+
+/* Ensure headings & paragraphs inside flex cards span full width */
+.sr-feature-card, .sr-grid-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sr-feature-card h3, .sr-feature-card h4, .sr-feature-card p,
+.sr-grid-card h3, .sr-grid-card h4, .sr-grid-card p {
+  width: 100% !important;
+  text-align: left;
+}
+
+/* Form Controls Clean Compact Reset */
+input, select, textarea, button {
+  font-family: var(--font-body) !important;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--color-text-body);
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: 0.65rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: var(--color-brand) !important;
+  box-shadow: 0 0 0 3px rgba(16, 132, 205, 0.15) !important;
+}
+
+.form-group {
+  margin-bottom: 0.85rem;
+}
+
+/* Cards & Compact Containers */
+.card,
+.sr-card {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: 0.875rem;
+}
+
+.card-body {
+  padding: 1rem 1.15rem;
+}
+
+.card-header {
+  padding: 0.75rem 1.15rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--color-border);
+  font-weight: 700;
+}
+
+/* Tables & Compact Data Grid System */
+.table,
+.sr-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.8125rem;
+  margin-bottom: 0.5rem;
+}
+
+.table thead,
+.sr-table thead {
+  background-color: #f8fafc;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.table thead th,
+.sr-table thead th {
+  padding: 0.65rem 0.95rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+  white-space: nowrap;
+}
+
+.table tbody tr,
+.sr-table tbody tr {
+  border-bottom: 1px solid #f1f5f9;
+  transition: background-color 0.15s ease;
+}
+
+.table tbody tr:last-child,
+.sr-table tbody tr:last-child {
+  border-bottom: 0;
+}
+
+.table tbody tr:hover,
+.sr-table tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+.table tbody td,
+.sr-table tbody td {
+  padding: 0.65rem 0.95rem;
+  vertical-align: middle;
+  color: var(--color-text-body);
+}
+
+/* Badges */
+.badge,
+.sr-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.badge-success,
+.sr-badge-success {
+  background-color: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+}
+
+.badge-warning,
+.sr-badge-warning {
+  background-color: #fffbeb;
+  color: #b45309;
+  border: 1px solid #fde68a;
+}
+
+.badge-danger,
+.sr-badge-danger {
+  background-color: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+.badge-info,
+.badge-primary,
+.sr-badge-info {
+  background-color: #f0f9ff;
+  color: #0c6fae;
+  border: 1px solid #bae6fd;
+}
+
+/* Alerts */
+.alert {
+  padding: 0.65rem 0.95rem;
+  border-radius: 0.75rem;
+  font-size: 0.8125rem;
+  margin-bottom: 0.85rem;
+}
+
+.alert-success {
+  background-color: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+}
+
+.alert-danger {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+
+.alert-warning {
+  background-color: #fffbeb;
+  border: 1px solid #fde68a;
+  color: #92400e;
+}
+
+.alert-info {
+  background-color: #f0f9ff;
+  border: 1px solid #bae6fd;
+  color: #075985;
+}
+
+/* ============================================================
+   APP SIDEBAR & DRAWER RESPONSIVENESS
+   ============================================================ */
+.app-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(2px);
+  z-index: 100;
+  transition: opacity 0.2s ease;
+}
+
+/* Mobile Sidebar Drawer (< 1024px / lg) */
+@media (max-width: 1023.98px) {
+  .app-sidebar {
+    position: fixed !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    z-index: 1050 !important;
+    width: 280px !important;
+    min-width: 280px !important;
+    max-width: 85vw !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    transform: translateX(-100%) !important;
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease !important;
+    box-shadow: none !important;
+    display: flex !important;
+  }
+
+  body.app-sidebar-opened .app-sidebar {
+    transform: translateX(0) !important;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25), 0 8px 10px -6px rgba(0, 0, 0, 0.2) !important;
+  }
+
+  .app-content {
+    margin-left: 0 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  #app_menu_toggler {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+
+/* Desktop layout (>= 1024px / lg): Persistent sidebar */
+@media (min-width: 1024px) {
+  .app-sidebar {
+    position: fixed !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    transform: translateX(0) !important;
+    width: 260px !important;
+    min-width: 260px !important;
+    max-width: 260px !important;
+    border-right: 1px solid #e2e8f0 !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    z-index: 20 !important;
+    display: flex !important;
+  }
+  
+  .app-content {
+    margin-left: 260px !important;
+    width: calc(100% - 260px) !important;
+  }
+
+  /* On desktop, hide backdrop overlay and toggler */
+  .app-overlay {
+    display: none !important;
+  }
+  #app_menu_toggler {
+    display: none !important;
+  }
+}
+
+/* ============================================================
+   LOGO-ALIGNED BRAND PALETTE OVERRIDES
+   ============================================================ */
+/* Buttons */
+.btn-primary,
+button.btn-primary,
+a.btn-primary {
+  background-color: var(--color-brand) !important;
+  border-color: var(--color-brand) !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--color-brand-hover) !important;
+  border-color: var(--color-brand-hover) !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-primary {
+  color: var(--color-brand) !important;
+  border-color: var(--color-brand) !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  background-color: var(--color-brand) !important;
+  border-color: var(--color-brand) !important;
+  color: #ffffff !important;
+}
+
+/* Links & Text Highlights */
+a.text-primary,
+.text-primary,
+.text-brand {
+  color: var(--color-brand) !important;
+}
+
+/* Backgrounds & Badges */
+.bg-primary,
+.bg-brand {
+  background-color: var(--color-brand) !important;
+}
+
+.bg-primary-soft,
+.bg-brand-soft {
+  background-color: #f0f9ff !important;
+}
+
+/* Forms Focus Ring */
+input:focus,
+select:focus,
+textarea:focus,
+.form-control:focus {
+  border-color: var(--color-brand) !important;
+  box-shadow: 0 0 0 3px rgba(16, 132, 205, 0.15) !important;
+}
+
+/* Pagination Active */
+.page-item.active .page-link {
+  background-color: var(--color-brand) !important;
+  border-color: var(--color-brand) !important;
+}
+
+/* Custom Checkbox / Radio checked */
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: var(--color-brand) !important;
+  border-color: var(--color-brand) !important;
+}
+
+/* ============================================================
+   TAILWIND UTILITY MAPPING TO LOGO COLOR PALETTE
+   ============================================================ */
+/* Buttons and Primary Accents */
+.bg-blue-600 {
+  background-color: #1084cd !important;
+}
+.hover\:bg-blue-700:hover {
+  background-color: #0c6fae !important;
+}
+.active\:bg-blue-800:active {
+  background-color: #085384 !important;
+}
+
+/* Soft Backgrounds */
+.bg-blue-50,
+.bg-blue-50\/80 {
+  background-color: #f0f9ff !important;
+}
+.hover\:bg-blue-100:hover {
+  background-color: #e0f2fe !important;
+}
+.bg-blue-100 {
+  background-color: #e0f2fe !important;
+}
+
+/* Text Highlights */
+.text-blue-600,
+.text-blue-700 {
+  color: #1084cd !important;
+}
+.hover\:text-blue-700:hover {
+  color: #0c6fae !important;
+}
+.text-blue-500 {
+  color: #38bdf8 !important;
+}
+
+/* Borders & Rings */
+.border-blue-200,
+.border-blue-200\/60 {
+  border-color: #bae6fd !important;
+}
+.border-blue-600,
+.focus-within\:border-blue-600:focus-within {
+  border-color: #1084cd !important;
+}
+.focus-within\:ring-blue-600\/15:focus-within {
+  --tw-ring-color: rgba(16, 132, 205, 0.15) !important;
+}
+.shadow-blue-500\/20 {
+  --tw-shadow-color: rgba(16, 132, 205, 0.2) !important;
+}
+
+/* Navy & Dark Card Accents */
+.bg-slate-900 {
+  background-color: #0b2239 !important;
+}
+.border-slate-800 {
+  border-color: #11365b !important;
+}
+.text-slate-900 {
+  color: #0b2239 !important;
+}
+
+/* ============================================================
+   CLEAN COMPACT SPACING & OVERFLOW CONTROL
+   ============================================================ */
+/* General vertical sections across all pages */
+section:not(.hero-main-section) {
+  padding-top: 2rem !important;
+  padding-bottom: 2.25rem !important;
+}
+
+@media (min-width: 640px) {
+  section:not(.hero-main-section) {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.75rem !important;
+  }
+}
+
+/* Dedicated Main Screen Hero Section Height & Spacious Alignment */
+.hero-main-section {
+  min-height: calc(82vh - 70px);
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding-top: 3.5rem !important;
+  padding-bottom: 4.5rem !important;
+}
+
+@media (min-width: 768px) {
+  .hero-main-section {
+    min-height: calc(85vh - 70px);
+    padding-top: 5rem !important;
+    padding-bottom: 6rem !important;
+  }
+}
+
+/* Standalone Dropdown support (for standard Bootstrap data-toggle="dropdown" markup without Bootstrap CSS) */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem;
+  margin: 0.25rem 0 0;
+  font-size: 0.8125rem;
+  color: var(--color-text-body);
+  text-align: left;
+  list-style: none;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu.show,
+.show > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu-right {
+  right: 0;
+  left: auto;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.4rem 0.75rem;
+  clear: both;
+  font-weight: 500;
+  color: var(--color-text-body);
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0.5rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: var(--color-text-title);
+  text-decoration: none;
+  background-color: #f1f5f9;
+}
+
+/* Modal compatibility */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1055;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.modal.show {
+  display: block;
+}
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 1.75rem auto;
+  max-width: 500px;
+  pointer-events: none;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+  outline: 0;
+  padding: 1.25rem;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(15, 23, 42, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+/* ============================================================
+   INDEX AUDIT FORM & ZERO FOCUS OUTLINE
+   ============================================================ */
+#index_audit_form input:focus,
+#index_audit_form *:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+/* ============================================================
+   ULTRA-RESPONSIVE VIEWPORT SAFEGUARDS (320px to 4K)
+   ============================================================ */
+@media (max-width: 480px) {
+  html {
+    font-size: 15px !important;
+  }
+
+  .container, .container-fluid {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+
+  /* Prevent any element or word from breaking out horizontally */
+  h1, h2, h3, h4, h5, h6, p, span, a, input, button {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 340px) {
+  html {
+    font-size: 14px !important;
+  }
+}
+
+/* ============================================================
+   INTERACTIVE TILT & COLORFUL HOVER CARDS
+   ============================================================ */
+.sr-tilt-card {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.35s ease, border-color 0.3s ease;
+}
+
+.sr-tilt-card:hover {
+  transform: translateY(-6px) rotateX(2.5deg) rotateY(-2.5deg) scale(1.02);
+  border-color: #93c5fd !important;
+  box-shadow: 0 20px 30px -10px rgba(16, 132, 205, 0.2), 0 10px 15px -3px rgba(0, 0, 0, 0.05) !important;
+}
+
+.sr-tool-card {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease !important;
+}
+
+.sr-tool-card:hover {
+  transform: translateY(-4px) !important;
+  border-color: #60a5fa !important;
+  box-shadow: 0 14px 25px -6px rgba(16, 132, 205, 0.16), 0 6px 10px -4px rgba(16, 132, 205, 0.1) !important;
+}
+
+.sr-blog-card {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease !important;
+}
+
+.sr-blog-card:hover {
+  transform: translateY(-5px) !important;
+}
+
+

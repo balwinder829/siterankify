@@ -1,0 +1,80 @@
+[06-Aug-2026 12:05:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wamp64\www\product\vendor\composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.;C:\php\pear') in D:\wamp64\www\product\vendor\composer\autoload_real.php:39
+Stack trace:
+#0 D:\wamp64\www\product\vendor\composer\autoload_real.php(43): {closure}('0e6d7bf4a5811bf...', 'D:\\wamp64\\www\\p...')
+#1 D:\wamp64\www\product\vendor\autoload.php(22): ComposerAutoloaderInit328bedc40552b965ce5430f3b3eabf43::getLoader()
+#2 D:\wamp64\www\product\app\init.php(93): require_once('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\index.php(20): require_once('D:\\wamp64\\www\\p...')
+#4 {main}
+  thrown in D:\wamp64\www\product\vendor\composer\autoload_real.php on line 39
+[06-Aug-2026 12:08:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wamp64\www\product/vendor/autoload.php' (include_path='.;C:\php\pear') in D:\wamp64\www\product\app\init.php:93
+Stack trace:
+#0 D:\wamp64\www\product\index.php(20): require_once()
+#1 {main}
+  thrown in D:\wamp64\www\product\app\init.php on line 93
+[06-Aug-2026 12:08:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wamp64\www\product/vendor/autoload.php' (include_path='.;C:\php\pear') in D:\wamp64\www\product\app\init.php:93
+Stack trace:
+#0 D:\wamp64\www\product\index.php(20): require_once()
+#1 {main}
+  thrown in D:\wamp64\www\product\app\init.php on line 93
+[06-Aug-2026 12:08:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wamp64\www\product/vendor/autoload.php' (include_path='.;C:\php\pear') in D:\wamp64\www\product\app\init.php:93
+Stack trace:
+#0 D:\wamp64\www\product\index.php(20): require_once()
+#1 {main}
+  thrown in D:\wamp64\www\product\app\init.php on line 93
+[06-Aug-2026 12:09:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wamp64\www\product\vendor\composer/../ralouphie/getallheaders/src/getallheaders.php' (include_path='.;C:\php\pear') in D:\wamp64\www\product\vendor\composer\autoload_real.php:39
+Stack trace:
+#0 D:\wamp64\www\product\vendor\composer\autoload_real.php(43): {closure}('7b11c4dc42b3b30...', 'D:\\wamp64\\www\\p...')
+#1 D:\wamp64\www\product\vendor\autoload.php(22): ComposerAutoloaderInit328bedc40552b965ce5430f3b3eabf43::getLoader()
+#2 D:\wamp64\www\product\app\init.php(93): require_once('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\index.php(20): require_once('D:\\wamp64\\www\\p...')
+#4 {main}
+  thrown in D:\wamp64\www\product\vendor\composer\autoload_real.php on line 39
+[06-Aug-2026 12:09:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wamp64\www\product\vendor\composer/../ralouphie/getallheaders/src/getallheaders.php' (include_path='.;C:\php\pear') in D:\wamp64\www\product\vendor\composer\autoload_real.php:39
+Stack trace:
+#0 D:\wamp64\www\product\vendor\composer\autoload_real.php(43): {closure}('7b11c4dc42b3b30...', 'D:\\wamp64\\www\\p...')
+#1 D:\wamp64\www\product\vendor\autoload.php(22): ComposerAutoloaderInit328bedc40552b965ce5430f3b3eabf43::getLoader()
+#2 D:\wamp64\www\product\app\init.php(93): require_once('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\index.php(20): require_once('D:\\wamp64\\www\\p...')
+#4 {main}
+  thrown in D:\wamp64\www\product\vendor\composer\autoload_real.php on line 39
+[06-Aug-2026 12:09:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wamp64\www\product\vendor\composer/../ralouphie/getallheaders/src/getallheaders.php' (include_path='.;C:\php\pear') in D:\wamp64\www\product\vendor\composer\autoload_real.php:39
+Stack trace:
+#0 D:\wamp64\www\product\vendor\composer\autoload_real.php(43): {closure}('7b11c4dc42b3b30...', 'D:\\wamp64\\www\\p...')
+#1 D:\wamp64\www\product\vendor\autoload.php(22): ComposerAutoloaderInit328bedc40552b965ce5430f3b3eabf43::getLoader()
+#2 D:\wamp64\www\product\app\init.php(93): require_once('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\index.php(20): require_once('D:\\wamp64\\www\\p...')
+#4 {main}
+  thrown in D:\wamp64\www\product\vendor\composer\autoload_real.php on line 39
+[06-Aug-2026 12:09:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wamp64\www\product\vendor\composer/../ralouphie/getallheaders/src/getallheaders.php' (include_path='.;C:\php\pear') in D:\wamp64\www\product\vendor\composer\autoload_real.php:39
+Stack trace:
+#0 D:\wamp64\www\product\vendor\composer\autoload_real.php(43): {closure}('7b11c4dc42b3b30...', 'D:\\wamp64\\www\\p...')
+#1 D:\wamp64\www\product\vendor\autoload.php(22): ComposerAutoloaderInit328bedc40552b965ce5430f3b3eabf43::getLoader()
+#2 D:\wamp64\www\product\app\init.php(93): require_once('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\index.php(20): require_once('D:\\wamp64\\www\\p...')
+#4 {main}
+  thrown in D:\wamp64\www\product\vendor\composer\autoload_real.php on line 39
+[06-Aug-2026 12:09:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wamp64\www\product\vendor\composer/../ralouphie/getallheaders/src/getallheaders.php' (include_path='.;C:\php\pear') in D:\wamp64\www\product\vendor\composer\autoload_real.php:39
+Stack trace:
+#0 D:\wamp64\www\product\vendor\composer\autoload_real.php(43): {closure}('7b11c4dc42b3b30...', 'D:\\wamp64\\www\\p...')
+#1 D:\wamp64\www\product\vendor\autoload.php(22): ComposerAutoloaderInit328bedc40552b965ce5430f3b3eabf43::getLoader()
+#2 D:\wamp64\www\product\app\init.php(93): require_once('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\index.php(20): require_once('D:\\wamp64\\www\\p...')
+#4 {main}
+  thrown in D:\wamp64\www\product\vendor\composer\autoload_real.php on line 39
+[06-Aug-2026 12:09:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\wamp64\www\product\vendor\composer/../ralouphie/getallheaders/src/getallheaders.php' (include_path='.;C:\php\pear') in D:\wamp64\www\product\vendor\composer\autoload_real.php:39
+Stack trace:
+#0 D:\wamp64\www\product\vendor\composer\autoload_real.php(43): {closure}('7b11c4dc42b3b30...', 'D:\\wamp64\\www\\p...')
+#1 D:\wamp64\www\product\vendor\autoload.php(22): ComposerAutoloaderInit328bedc40552b965ce5430f3b3eabf43::getLoader()
+#2 D:\wamp64\www\product\app\init.php(93): require_once('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\product\index.php(20): require_once('D:\\wamp64\\www\\p...')
+#4 {main}
+  thrown in D:\wamp64\www\product\vendor\composer\autoload_real.php on line 39
+[06-Aug-2026 12:39:57 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\wamp64\www\product\app\core\Currency.php on line 61) in D:\wamp64\www\product\app\helpers\sessions.php on line 36
+[06-Aug-2026 12:39:57 UTC] PHP Stack trace:
+[06-Aug-2026 12:39:57 UTC] PHP   1. {main}() D:\wamp64\www\product\index.php:0
+[06-Aug-2026 12:39:57 UTC] PHP   2. Altum\App->__construct() D:\wamp64\www\product\index.php:22
+[06-Aug-2026 12:39:57 UTC] PHP   3. call_user_func_array:{D:\wamp64\www\product\app\core\App.php:321}($callback = [0 => class Altum\Controllers\AuditCreate { public $views = [...]; public $params = [...]; public $user = class stdClass { ... } }, 1 => 'index'], $args = []) D:\wamp64\www\product\app\core\App.php:321
+[06-Aug-2026 12:39:57 UTC] PHP   4. Altum\Controllers\AuditCreate->index() D:\wamp64\www\product\app\core\App.php:321
+[06-Aug-2026 12:39:57 UTC] PHP   5. session_set($key = 'audit_form', $value = ['url' => 'https://amazon.com', 'urls' => NULL, 'type' => 'single', 'domain_id' => NULL, 'is_public' => TRUE, 'password' => NULL, 'audit_check_interval' => '', 'notifications' => []]) D:\wamp64\www\product\app\controllers\AuditCreate.php:84
+[06-Aug-2026 12:39:57 UTC] PHP   6. session_start_if_not_started() D:\wamp64\www\product\app\helpers\sessions.php:45
+[06-Aug-2026 12:39:57 UTC] PHP   7. session_start() D:\wamp64\www\product\app\helpers\sessions.php:36

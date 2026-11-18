@@ -1,0 +1,27 @@
+User-agent: *
+Disallow: /dashboard/
+Disallow: /admin/
+Disallow: /account/
+Disallow: /pay/
+Disallow: /login
+Disallow: /register
+Disallow: /audit/
+Disallow: /archived-audits/
+Disallow: /archived-audit/
+Disallow: /websites/
+Disallow: /website/
+Disallow: /notification-handlers/
+Disallow: /notification-handler/
+Disallow: /teams/
+Disallow: /team/
+Disallow: /sso/
+Disallow: /domains/
+Disallow: /domain/
+Disallow: /referrals/
+Disallow: /lost-password/
+Disallow: /reset-password/
+Disallow: /activate-user/
+Disallow: /resend-activation/
+Allow: /
+
+Sitemap: https://siteanalysistool.com/sitemap

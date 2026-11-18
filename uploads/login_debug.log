@@ -1,0 +1,6 @@
+2026-04-14 08:33:30 - Login attempt for: debug@example.com
+2026-04-14 08:33:30 - Login failed. Field Errors: null Errors: {"error":["Your login combination is invalid."]}
+2026-04-14 08:34:58 - Login attempt for: debug@example.comtestuser@example.com
+2026-04-14 08:34:58 - Login failed. Field Errors: null Errors: {"error":["Your login combination is invalid."]}
+2026-04-14 08:35:08 - Login attempt for: testuser@example.com
+2026-04-14 08:35:09 - Login success for: testuser@example.com Redirecting to: dashboard

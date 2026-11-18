@@ -1,0 +1,8 @@
+[26-May-2026 09:26:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getItem() on null in D:\wamp64\www\product\app\models\Settings.php:25
+Stack trace:
+#0 D:\wamp64\www\product\app\core\Settings.php(26): Altum\Models\Settings->get()
+#1 D:\wamp64\www\product\app\helpers\core.php(21): Altum\Settings::initialize()
+#2 D:\wamp64\www\product\scratch\get_enabled_payment_gateways.php(11): settings()
+#3 {main}
+  thrown in D:\wamp64\www\product\app\models\Settings.php on line 25
+[26-May-2026 09:27:53 Europe/Berlin] DB QUERY:SELECT  * FROM plans

@@ -1,0 +1,7 @@
+[20-Aug-2026 09:49:47 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Altum\Controllers\DNS_CAA" in C:\xampp1\htdocs\siterankify\app\controllers\Tools.php:204
+Stack trace:
+#0 [internal function]: Altum\Controllers\Tools->dns_lookup()
+#1 C:\xampp1\htdocs\siterankify\app\core\App.php(321): call_user_func_array(Array, Array)
+#2 C:\xampp1\htdocs\siterankify\index.php(22): Altum\App->__construct()
+#3 {main}
+  thrown in C:\xampp1\htdocs\siterankify\app\controllers\Tools.php on line 204
